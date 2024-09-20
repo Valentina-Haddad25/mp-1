@@ -25,6 +25,7 @@
   position: fixed; /* Fix position of nav-bar on the left side of the screen */
   left: 0; /* Align nav-bar to the left edge of the screen */
   top: 0; /* Remove white space at the top by setting top position to 0 */
+  margin-right:95%;
 }
 
 /* Styling for the left section of the nav-bar */
@@ -289,12 +290,12 @@ html, body {
 }
 
 #cert2 {
-  width: 70vh; /* Sets the width of the certificate image to 70% of the viewport height */
-  height: 50vh; /* Sets the height of the certificate image to 50% of the viewport height */
+  width: 60vh; /* Sets the width of the certificate image to 70% of the viewport height */
+  height: 40vh; /* Sets the height of the certificate image to 50% of the viewport height */
   flex-direction: row; /* Specifies the flex direction as row (horizontal), though this may not apply here unless inside a flex container */
   align-items: flex-end; /* Aligns the item at the end of the flex container */
   border: 2px black solid; /* Adds a 2px solid black border around the image */
-  margin-left: 36%; /* Adds a left margin of 36% to position the image */
+  margin-left: 50%; /* Adds a left margin of 50% to position the image */
 }
 
 .Contact {
