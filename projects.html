@@ -2,20 +2,26 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- Title of the page shown in the browser tab -->
   <title>Haddad | Projects</title>
+  <!-- Link to the external CSS file for styling -->
   <link rel="stylesheet" href="index-file.css">
+  <!-- Link to the external JavaScript file for the calculator functionality -->
   <script src="calc.js" ></script>
 </head>
 <body>
 
+<!-- Navigation bar section -->
 <nav class="nav-bar">
+  <!-- Left side of the navigation bar containing the name and subheader -->
   <div class="nav-left">
     <h1 class="nav-name">Valentina Haddad</h1>
     <p class="navsubheader">My Virtual Resume!</p>
   </div>
+  <!-- Right side of the navigation bar containing the menu -->
   <div class="nav-right">
-
-    <ul class="resume-menu">
+    <ul>
+      <!-- Links to other sections of the virtual resume -->
       <li><a href="index.html">Home</a></li>
       <li><a href="education.html">Education</a></li>
       <li><a href="employment.html">Employment</a></li>
@@ -24,42 +30,58 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
     <div>
-
     </div>
+
   </div>
 </nav>
 
+<!-- Main heading of the page -->
 <h1 id="pageWrapperHeading">Projects</h1>
+
+<!-- Section displaying the calculator project -->
 <div class="box">
+  <!-- Subheading for the calculator project -->
   <h2 class="CalculatorProjHeading">Cotton Candy Calculator</h2>
 
+  <!-- Wrapper for the calculator functionality -->
   <div class="PageWrapperCalc">
 
+    <!-- Input field for the first number -->
     <label for="first-number">First Number:</label>
     <input id="first-number" type="number"><br>
 
+    <!-- Input field for the second number -->
     <label for="second-number">Second Number:</label>
     <input id="second-number" type="number"><br>
 
-
+    <!-- Buttons for performing arithmetic operations -->
     <div class="buttons">
+      <!-- Button for addition operation -->
       <button onclick="add()">+</button>
+      <!-- Button for subtraction operation -->
       <button onclick="sub()">-</button>
+      <!-- Button for multiplication operation -->
       <button onclick="multiplication()">×</button>
+      <!-- Button for division operation -->
       <button onclick="division()">÷</button>
+      <!-- Button for power operation -->
       <button onclick="power()">**</button>
+      <!-- Button for clearing input fields -->
       <button onclick="ClearforCalc()">Clear</button>
     </div>
 
+    <!-- Output box where the result of the calculation is displayed -->
     <div id="output-box">
       <h3 id="output">Result:</h3> <br>
 
     </div>
   </div>
-  </div>
+</div>
 
-   <script src="calc.js"></script>
+<!-- Link to the external JavaScript file for functionality (repeated for redundancy) -->
+<script src="calc.js"></script>
 
+<!-- Footer section with credits -->
 <footer class="footer">
   <p>All rights reserved by Valentina Haddad: <a href="">Credits</a> &#169;</p>
 </footer>
