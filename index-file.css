@@ -50,7 +50,7 @@
   font-size: calc(11px + 0.5vw); /* Dynamic font size based on viewport width */
   color: white; /* Text color set to white */
   font-style: italic; /* Italicized text style */
-  padding-bottom: 20px; /* Padding below the text for spacing */
+  padding-bottom: 40px; /* Padding below the text for spacing */
 }
 
 /* Remove default list styles for the navigation menu */
@@ -71,7 +71,7 @@
   font-size: calc(5px + 1.5vw); /* Dynamic font size based on viewport width */
   text-decoration: none; /* Removes underline from links */
   display: block; /* Displays links as block elements to occupy the full width */
-  padding: 8px 2px; /* Padding for spacing inside the links */
+  padding: 9px 2px; /* Padding for spacing inside the links */
 }
 
 /* Styling for homepage image of me  with the ID 'child-one' */
@@ -80,11 +80,24 @@
   height: 30%;
   background-color: black;
   margin-right: 8%;
-  margin-left: 5%;
+}
+/* Special index wrapper for home page */
+#index-wrapper {
+  display: inline-block; /* Allows the wrapper to behave like an inline element but still maintain block-level properties */
+  margin-bottom: 2%; /* Margin at the bottom for spacing */
+  box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+  margin:1% 4% 0 15%;
+}
+/* Special index wrapper for home page: sepcifically image */
+#index-wrapper img {
+  float: left; /* Floats the image to the left, allowing text to wrap around it */
+  margin-right: 2%; /* Space to the right of the image */
+  margin-bottom: 2%; /* Space below the image */
+  max-width: 40%; /* Limits the image width to 40% of the container */
 }
 
 
-/* Styling for the main content wrapper on the page */
+/* Styling for the main content wrapper on the pages; not used in hoem but used on the other pages */
 .page-wrapper {
   display: inline-block; /* Allows the wrapper to behave like an inline element but still maintain block-level properties */
   margin-bottom: 2%; /* Margin at the bottom for spacing */
@@ -102,9 +115,10 @@
   max-width: 40%; /* Limits the image width to 40% of the container */
 }
 
+
 /* Styling for the main heading in the intro section */
 .intro h1 {
-  font-size: calc(13px + 1.5vw); /* Dynamic font size based on viewport width */
+  font-size: calc(10px + 1.5vw); /* Dynamic font size based on viewport width */
   font-weight: bold; /* Bold text */
   color: #000080; /* Navy blue color for the text */
   text-align: left; /* Aligns the text to the left */
@@ -114,6 +128,7 @@
 .intro p {
   font-size: calc(7px + 1vw); /* Dynamic font size based on viewport width */
   color: black; /* Black text color */
+  margin-left: 15%;
 }
 
 /* Styling for the footer section */
@@ -173,7 +188,7 @@ html, body {
 }
 
 
-
+/* Wrapper for all the intro */
 .intro {
   font-family: 'Georgia', serif; /* A clean and professional font */
   line-height: 2; /*  the space between lines */
@@ -208,7 +223,7 @@ html, body {
   font-weight: bold;
 
 }
-
+/* education page thingz*/
 .education {
   display: flex;
   flex-direction: column; /* Stacks text and image vertically */
@@ -216,14 +231,14 @@ html, body {
   text-align: center; /* Centers text within the container */
 
 }
-
+/* education words */
 .education p {
   font-size: calc(10px + 1.5vw); /* Dynamically adjusts font size based on viewport width */
   text-align: center; /* Centers the text within the container */
   padding-left: 80px; /* Adds 80px padding to the left for spacing */
   padding-top: 40px; /* Adds 40px padding to the top for spacing */
 }
-
+/*  education picture*/
 .education img {
   margin-top: 20px; /* Adds space between the text and the image */
   width: 20%;
@@ -288,7 +303,7 @@ html, body {
   margin-left: 19%;
   margin-top: 1%;
 }
-
+/* Certification picture  */
 #cert2 {
   width: 60vh; /* Sets the width of the certificate image to 70% of the viewport height */
   height: 40vh; /* Sets the height of the certificate image to 50% of the viewport height */
@@ -297,7 +312,7 @@ html, body {
   border: 2px black solid; /* Adds a 2px solid black border around the image */
   margin-left: 50%; /* Adds a left margin of 50% to position the image */
 }
-
+/* Contact page */
 .Contact {
   display: block; /* Makes the contact element behave as a block element */
   font-size: calc(11px + 1.5vw); /* Dynamic font size based on the viewport width */
@@ -306,7 +321,7 @@ html, body {
   font-weight: bold; /* Makes the text bold */
   padding-bottom: 30px; /* Adds padding at the bottom for spacing */
 }
-
+/* creates space at bottom when the footer might cover it  */
 .NeedsSpace {
   margin-bottom: 50px; /* Adds a 50px margin at the bottom to create space */
 }
@@ -318,7 +333,7 @@ html, body {
   padding-left: 20px; /* Adds 20px of padding to the left */
   height: 50vh; /* Sets the container height to 50% of the viewport height */
 }
-
+/* page wrapper for contact page  */
 #page-wrapperContact {
   border: navy solid 10px; /* Adds a 10px solid navy border around the wrapper */
   border-radius: 10px; /* Rounds the corners of the wrapper by 10px */
@@ -451,28 +466,30 @@ input[type="number"] {
     padding: 10px; /* Reduce padding to make the nav bar smaller */
     align-items: center; /* Center everything inside the nav-bar */
   }
-
+  /*  */
   .nav-left {
     display: flex;
     flex-direction: column;
     align-items: center; /* Center name and subheader */
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: 0px;   /* I know it does nothing, but my brain likes to see its not an option */
 
   }
 
   /* Ensures the image takes up full width */
   /* Image right under da home text */
-  #child-one {
-    width: 100%;
-    display: block;
-  }
 
+  #child-one {
+    width: 100%; /* Makes the image take up the full width of its container */
+    height: 30%;
+    background-color: black;
+    margin:0;
+  }
   /* Centers text content and adjusts margins for the introduction */
   .intro h1 {
     margin-left: 50px;
   }
-
+  /* all the intro all of it*/
   .intro {
     font-family: 'Georgia', serif;
     max-width: 100%;
@@ -482,6 +499,14 @@ input[type="number"] {
     order: 3; /* Ensure text is below the image */
 
   }
+  /* home page just whats incased in p */
+  .intro p {
+    font-size: calc(7px + 2vw);
+    color: black;
+    text-align: justify;
+    margin: 20px;
+    padding: 20px;
+  }
 
   /* Centers text content and adjusts margins for the introduction */
   .nav-name {
@@ -489,10 +514,11 @@ input[type="number"] {
     margin-top: 0;
 
   }
-
+  /* nav subheader my virtual resume  */
   .navsubheader {
     color: white;
     margin-bottom: 0; /* Add some space below the subheader */
+    padding-bottom: 20px; /* Padding below the text for spacing */
   }
 
   /* Styles and centers navigation links in a row layout */
@@ -506,7 +532,7 @@ input[type="number"] {
     margin-top: 2px; /*Not working to remove wierd space*/
     margin-left: 0;
   }
-
+  /* links spacing */
   .nav-right li {
     margin: 0 10px; /* Adjust spacing between links */
   }
@@ -514,12 +540,53 @@ input[type="number"] {
   .nav-right li a {
     padding: 2px 3px;
   }
+  /* Index wrapper for the home page only and makes the image bigger yippy my face in ultra HD & 100% width!*/
+  #index-wrapper {
+    display: block;
+    flex-direction: column; /* Stacks elements vertically */
+    justify-content: center;
+    align-items: center;
+    margin: 0; /* No margin at the top */
+    width: 100%; /* Full width for the wrapper */
+  }
 
+  /* text on home page */
+  .intro {
+    text-align: center; /* Center text */
+    max-width: 90%; /* Ensures a readable width for text */
+    margin: auto;
+    display: block;
+  }
+
+  /* Adjust the heading */
+  .intro h1 {
+    font-size: calc(13px + 1.5vw); /* Dynamically adjust based on screen size */
+    color: #000080; /* Navy color */
+  }
+  /* image on home page */
+    #index-wrapper img {
+      width: 100%; /* Ensure image takes up full width on small screens */
+      max-width: 100vh; /* Ensures the image doesn’t exceed viewport height */
+      float:none;
+      margin-bottom:4%;
+
+
+    }
+  /* intro specifically home page and words incased in p */
+    .intro p {
+      font-size: calc(8px + 2vw); /* Adjust font size for readability */
+      color: black;
+      text-align: justify;
+      margin-right: 20%;
+
+    }
+  /*  I know I have a lot of intros but I personally like keeping it seprate so I know exactly what section is doing what bc thats how my brain works T T*/
   /* Adjusts margin and padding for content containers and images */
   #page-wrapper {
     margin-left: 0;
     padding-top: 10px;
   }
+
 
   /* education list */
   .education p {
@@ -580,16 +647,8 @@ input[type="number"] {
   #page-wrapper {
     display: flex;
     flex-direction: column;
-    margin-right: 2%;
   }
 
-  /* used this for home page image of me   */
-  #page-wrapper img {
-    width: 100%;
-    max-width: 100%;
-    float: none;
-    display: block;
-  }
 
   /* intro paragraph */
   .intro p {

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ae032e6d-ac53-4392-9c47-d87233484907" name="Changes" comment="&quot;second try&quot;">
+      <change beforePath="$PROJECT_DIR$/index-file.css" beforeDir="false" afterPath="$PROJECT_DIR$/index-file.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2lhuISZvfoLCFdwm8OhxrvdaVf4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.404.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.About me!.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Certifications &amp; Research.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Contact.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Education.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Employment.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.Home.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.about-me!.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.certifications-&amp;-research.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.contact.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.education.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.employment.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.home.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.projects.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.trialCalc.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae032e6d-ac53-4392-9c47-d87233484907" name="Changes" comment="" />
+      <created>1725644549969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1725644549969</updated>
+      <workItem from="1725644551383" duration="25919000" />
+      <workItem from="1726079318074" duration="7765000" />
+      <workItem from="1726171259300" duration="1751000" />
+      <workItem from="1726248051870" duration="31342000" />
+      <workItem from="1726448340236" duration="3219000" />
+      <workItem from="1726543987860" duration="3220000" />
+      <workItem from="1726601044088" duration="1750000" />
+      <workItem from="1726680548596" duration="84520000" />
+      <workItem from="1726853999128" duration="11000" />
+      <workItem from="1726858544160" duration="2102000" />
+      <workItem from="1726863305756" duration="5628000" />
+    </task>
+    <task id="LOCAL-00001" summary="&quot;second try&quot;">
+      <option name="closed" value="true" />
+      <created>1726849942805</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1726849942805</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;second try&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;second try&quot;" />
+  </component>
+</project>
