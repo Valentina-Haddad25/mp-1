@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Tangerine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap');
+
+/* Base layout */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  font-family: 'Georgia', serif;
+}
+
+
+.content-bar h1, .content-bar h4 {
+  margin: 0;
+  padding: 0;
+}
+
+
+.nav-bar {
+  background-color: #000080;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  height: 100vh; /* Ensure it covers the full viewport height */
+  width: 250px;
+  position: fixed;
+  left: 0;
+  top: 0; /* Change from 50px to 0 to eliminate the white space at the top */
+}
+
+.nav-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.nav-name {
+  font-size: calc(30px + 2vw);
+  font-family: 'Tangerine', cursive;
+  color: white;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.navsubheader {
+  font-size: calc(11px + 0.5vw);
+  color: white;
+  font-style: italic;
+  padding-bottom: 20px;
+}
+
+.nav-right ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-right li {
+  margin-bottom: 40px;
+}
+
+.nav-right li a {
+  color: white;
+  font-size: calc(5px + 1.5vw);
+  text-decoration: none;
+  display: block;
+  padding: 8px 2px;
+}
+#child-one {
+  width: 100%;
+  margin: 0;
+
+}
+.page-wrapper {
+  display: inline-block;
+  margin-bottom: 2%;
+  box-sizing: border-box;
+  margin-left: 19%;
+  margin-top: 1%;
+  margin-right:14%;
+}
+.page-wrapper img {
+  float:left;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  max-width: 40%;
+}
+
+.intro h1 {
+  font-size: calc(13px + 1.5vw);
+  font-weight: bold;
+  color: #000080;
+  text-align: left;
+}
+
+.intro p {
+  font-size: calc(7px + 1vw);
+  color: black;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 1%;
+  text-align: left;
+  font-size: calc(10px + 0.5vw);
+}
+
+.footer p {
+  margin: 0;
+  padding-left: 20px;
+}
+#pageWrapperHeading {
+  padding-top: 10px;
+  margin: 0;
+  text-align: center;
+  color: navy;
+  font-family: "Tangerine", cursive;
+  font-size: calc(18px + 3vw);
+  padding-left: 20px;
+}
+
+
+.nav-right ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  padding-bottom: 40%;
+
+
+}
+
+
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+
+
+
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  height: auto;
+  background-color: white;
+}
+
+#child-one{ /*image of me on home page teehee*/
+  width:40%;
+  height:30%;
+  background-color: black;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+
+.intro {
+  font-family: 'Georgia', serif; /* A clean and professional font */
+  line-height: 2; /*  the space between lines */
+  max-width: 1500px; /* Controls the width of the text block */
+  margin: auto;/* Centers the block on daaa home page */
+
+}
+
+.intro h1 {
+  font-size: calc(13px + 1.5vw);
+  font-weight: bold;
+  color: #000080;
+  margin-bottom: 15px;
+  text-align: left;
+  margin-right: 2px;
+}
+
+.intro p {
+  font-size: calc(7px + 1vw);
+  color:black;
+  margin-bottom: 0px;
+  text-align: justify;
+  padding-right: 30px;
+  padding-left:0px;
+  padding-bottom: 50px;
+  margin-right: 30px;
+}
+
+.intro a {
+  color: #000080;
+  text-decoration: none; /* Removes underline */
+  font-weight: bold;
+
+}
+
+.education {
+  display: flex;
+  flex-direction: column; /* Stacks text and image vertically */
+  align-items: center; /* Centers both text and image horizontally */
+  text-align: center; /* Centers text within the container */
+
+}
+.education p{
+  font-size: calc(10px + 1.5vw);
+  text-align: center;
+  padding-left: 80px;
+  padding-top: 40px;
+
+}
+.education img {
+  margin-top: 20px; /* Adds space between the text and the image */
+  width: 20%;
+  height: auto; /* Maintains aspect ratio */
+  padding-left: 80px;
+}
+
+
+/* Making the footer look better  */
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%; /* Ensures the footer spans the full width */
+  background-color: #f8f8f8; /* background color */
+  padding: 10px;
+  text-align: left; /* Align text to the left */
+  font-size: calc(10px + 0.5vw);
+}
+
+.footer p {
+  margin: 0;
+  padding-left: 20px; /* Adds some spacing from the left edge of the foopter*/
+}
+
+.workPartA{
+  font-size: calc(14px + 0.5vw);
+  color: #000000; /* Ensure the text color is a solid black for clarity */
+  text-align: left;
+  padding-left: 300px;
+}
+.workPartA p {
+  margin-bottom: 5px; /* Reduces the space between header and bullet points */
+}
+
+.workPartB{
+  font-size: calc(12px + 0.5vw); /* Increase the size dynamically */
+  color: #000000; /* Ensure the text color is a solid black for clarity */
+  text-align: left; /* Align the text to the left */
+  padding-left: 320px;
+  margin-bottom: 20px;
+}
+.workPartB ul {
+  margin-top: 5px; /* Reduce the space above the list */
+  padding-left: 20px; /* Adjust if you need to move the bullets closer */
+  list-style: b;
+}
+.workPartB li {
+  list-style-type: square;
+}
+
+/*certs and research*/
+#page-wrapperCR {
+  flex-direction: row; /* Stacks Cert1 and Cert2 horizontally */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  display: inline-block;
+  margin-bottom: 2%;
+  box-sizing: border-box;
+  margin-left: 19%;
+  margin-top: 1%;
+}
+
+
+#Cert2 {
+  width: 70vh;
+  height: 50vh;
+  flex-direction: row;
+  align-items: flex-end;
+  border: 2px black solid;
+  margin-left: 36%;
+
+}
+
+
+.Contact {
+  display: block;
+  font-size: calc(11px + 1.5vw);
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.NeedsSpace{
+  margin-bottom:50px;
+}
+.Contain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left:20px;
+  height: 50vh;
+}
+
+#page-wrapperContact {
+  border: navy solid 10px;
+  border-radius: 10px;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  display: inline-block;
+  max-width: 650px;
+}
+.ContactMe{
+  text-align: center;
+  padding-top: 130px;
+  font-family: "Tangerine", cursive;
+  font-size: calc(48px + 1.5vw);
+  margin-top: 50px;
+}
+
+
+.PageWrapperCalc{
+  background-color: lightblue;
+  border-radius: 10px;
+  text-align: center;
+  width: 30%;
+  font-size: calc(14px + 0.5vw);
+  color: hotpink;
+  font-weight: bold;
+  max-width: 90%; /* Using percentage for responsiveness */
+  padding: 2%;
+  align-self: center; /* Center align the calculator */
+  margin-left:40%;
+  box-sizing: border-box;
+}
+
+
+
+.butcalc{
+  display: block;
+  text-align: center;
+  padding-left: 0;
+  padding-top: 30px;
+}
+
+
+.CalculatorProjHeading{
+  color: hotpink;
+  margin-left:45%;
+  padding-top:0.5%;
+  font-family: "Gujarati MT", cursive;
+  font-size: calc(18px + 1vw);
+
+}
+
+.calculator-container {
+  max-width: 400px;
+  margin: 50px;
+  background-color: #add8e6;
+  border-radius: 20px;
+  text-align: center;
+}
+
+/* Style for input fields */
+input[type="number"] {
+  padding: 0.5%;  /* Reduced from 1% to 0.5% */
+  margin: 5px 0;  /* Reduced top and bottom margin from 10px to 5px */
+  border: 1px solid #ffc0cb; /* light pink border */
+  border-radius: 10px;
+  font-size: calc(16px + 0.5vw);
+  background-color: #fff5f7; /* very light pink */
+  color: dodgerblue;
+  font-weight: lighter;
+}
+
+/* Style for the buttons */
+.buttons button {
+  width: 70px;
+  height: 60px;
+  margin: 10px;
+  border: none;
+  background-color: #ffc0cb;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+.buttons button:hover {
+  background-color: #ffa6c1;
+}
+
+#output-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: white;
+  border: 2px solid #ffc0cb;
+  border-radius: 10px;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/* Style for the output text */
+#output {
+  font-size: calc(14px + 0.5vw);
+  font-weight: bold;
+}
+
+
+/* Media query for screens smaller than 750px */
+@media screen and (max-width: 1000px) {
+  .nav-bar {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    width: 100%;
+    position: relative;
+    padding: 10px; /* Reduce padding to make the nav bar smaller */
+    align-items: center; /* Center everything inside the nav-bar */
+  }
+
+  .nav-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center name and subheader */
+    text-align: center;
+    margin-bottom:0px;
+
+  }
+  /* Image right under da home text */
+  #child-one {
+    width: 100%;
+    display: block;
+  }
+  .intro h1 {
+    margin-left: 50px;
+  }
+  .intro {
+    font-family: 'Georgia', serif;
+    max-width: 100%;
+    margin-left: 20px; /* Add margin for spacing */
+    padding: 20px;
+    text-align: center;
+    order: 3; /* Ensure text is below the image */
+
+  }
+
+  .intro p {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .nav-name {
+    text-align: center;
+    margin-top:0;
+
+  }
+
+  .navsubheader {
+    color: white;
+    margin-bottom: 0; /* Add some space below the subheader */
+  }
+
+  .nav-right ul {
+    display: flex;
+    flex-direction: row; /* Horizontal layout for links */
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin-top: 2px; /*Not working to remove wierd space*/
+    margin-left:0;
+  }
+
+  .nav-right li {
+    margin: 0 10px; /* Adjust spacing between links */
+  }
+
+  .nav-right li a {
+    padding: 2px 3px;
+  }
+
+  #page-wrapper {
+    margin-left: 0;
+    padding-top: 10px;
+  }
+
+  .education p{
+    text-align: center;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-right: 50px;
+  }
+  .education img {
+    margin-top: 20px; /* Adds space between the text and the image */
+    width: 20%;
+    height: auto; /* Maintains aspect ratio */
+    padding-left: 80px;
+    padding-right: 70px;
+  }
+  .workPartA{
+    padding-left: 8px;
+  }
+  .workPartB{
+    padding-left: 50px;
+    margin-bottom: 20px;
+    padding-right: 8px;
+  }
+  #page-wrapperCR {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin-right: 100px;
+
+  }
+
+  #Cert2 {
+    margin-top: 40px;
+    width: 60vh;
+    height:40vh;
+    display: block;
+    align-items: center;
+    margin-left:15vh;
+    border-width: 10px;
+    border: black solid;
+    margin-bottom: 5vh;
+    margin-right:30%;
+
+  }
+
+  #page-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-right: 2%;
+  }
+
+
+  #page-wrapper img {
+    width:100%;
+    max-width:100%;
+    float:none;
+  }
+
+  .intro p {
+    font-size: calc(7px + 2vw);
+    color: black;
+    text-align: justify;
+  }
+  .PageWrapperCalc {
+    max-width: 50%; /* Full width for small screens */
+    margin-left:35%;
+    align-items: center;
+
+  }
+
+  .CalculatorProjHeading {
+    margin-left: 0; /* Center align the heading */
+    text-align: center; /* Ensure text is centered */
+  }
+
+  .calculator-container {
+    max-width: 50%;
+  }
+
+  input[type="number"] {
+    padding: 0.3%;
+    margin: 2% 1%;
+    font-size: calc(14px + 0.5vw);
+
+  }
+
+  .buttons {
+    align-items: flex-start;
+
+  }
+
+  .buttons button {
+    width: 20%;
+    margin: 1%; /* Adjust padding */
+    font-size: calc(5px + 1vw);
+
+  }
+
+  #output-box {
+    justify-content: flex-start;
+    padding: 10px;
+  }
+  #output {
+    text-align: left; /* Align text to the left */
+    margin-left: 1%; /* Add some padding */
+  }
+
+
+  #CottonCandi {
+    max-width: 15%;
+    margin-left: 60%;
+    margin-bottom: 2%;
+  }
+}
