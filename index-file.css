@@ -21,7 +21,7 @@
   flex-direction: column; /* Arrange items vertically */
   padding: 15px; /* Padding inside the nav-bar */
   height: 100vh; /* Ensure the nav-bar covers the full viewport height */
-  width: 250px; /* Fixed width for the nav-bar */
+  width: 15%; /* Fixed width for the nav-bar */
   position: fixed; /* Fix position of nav-bar on the left side of the screen */
   left: 0; /* Align nav-bar to the left edge of the screen */
   top: 0; /* Remove white space at the top by setting top position to 0 */
@@ -79,7 +79,7 @@
   width: 100%; /* Makes the image take up the full width of its container */
   height: 30%;
   background-color: black;
-  margin-right: 8%;
+  margin-left: 8%;
 }
 /* Special index wrapper for home page */
 #index-wrapper {
@@ -268,18 +268,19 @@ html, body {
   font-size: calc(14px + 0.5vw);
   color: #000000; /* Ensure the text color is a solid black for clarity */
   text-align: left;
-  padding-left: 300px;
+  margin-left: 16%;
+
 }
 
 .workPartA p {
-  margin-bottom: 5px; /* Reduces the space between header and bullet points */
+  margin-bottom: 0.5%; /* Reduces the space between header and bullet points */
 }
 
 .workPartB {
   font-size: calc(12px + 0.5vw); /* Increase the size dynamically */
   color: #000000; /* Ensure the text color is a solid black for clarity */
   text-align: left; /* Align the text to the left */
-  padding-left: 320px;
+  margin-left: 17%;
   margin-bottom: 20px;
 }
 
@@ -298,7 +299,6 @@ html, body {
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   display: inline-block;
-  margin-bottom: 2%;
   box-sizing: border-box;
   margin-left: 19%;
   margin-top: 1%;
@@ -310,7 +310,7 @@ html, body {
   flex-direction: row; /* Specifies the flex direction as row (horizontal), though this may not apply here unless inside a flex container */
   align-items: flex-end; /* Aligns the item at the end of the flex container */
   border: 2px black solid; /* Adds a 2px solid black border around the image */
-  margin-left: 50%; /* Adds a left margin of 50% to position the image */
+  margin-left: 39%; /* Adds a left margin of 50% to position the image */
 }
 /* Contact page */
 .Contact {
@@ -564,22 +564,22 @@ input[type="number"] {
     color: #000080; /* Navy color */
   }
   /* image on home page */
-    #index-wrapper img {
-      width: 100%; /* Ensure image takes up full width on small screens */
-      max-width: 100vh; /* Ensures the image doesn’t exceed viewport height */
-      float:none;
-      margin-bottom:4%;
+  #index-wrapper img {
+    width: 100%; /* Ensure image takes up full width on small screens */
+    max-width: 100vh; /* Ensures the image doesn’t exceed viewport height */
+    float:none;
+    margin-bottom:4%;
 
 
-    }
+  }
   /* intro specifically home page and words incased in p */
-    .intro p {
-      font-size: calc(8px + 2vw); /* Adjust font size for readability */
-      color: black;
-      text-align: justify;
-      margin-right: 20%;
+  .intro p {
+    font-size: calc(8px + 2vw); /* Adjust font size for readability */
+    color: black;
+    text-align: justify;
+    margin-right: 20%;
 
-    }
+  }
   /*  I know I have a lot of intros but I personally like keeping it seprate so I know exactly what section is doing what bc thats how my brain works T T*/
   /* Adjusts margin and padding for content containers and images */
   #page-wrapper {
@@ -607,12 +607,12 @@ input[type="number"] {
 
   /* headers for my jobs */
   .workPartA {
-    padding-left: 8px;
+    margin-left: 4%;
   }
 
   /* list of what I did at said job */
   .workPartB {
-    padding-left: 50px;
+    margin-left:5%;
     margin-bottom: 20px;
     padding-right: 8px;
   }

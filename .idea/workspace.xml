@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ae032e6d-ac53-4392-9c47-d87233484907" name="Changes" comment="&quot;second try&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index-file.css" beforeDir="false" afterPath="$PROJECT_DIR$/index-file.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +93,7 @@
       <workItem from="1726680548596" duration="84520000" />
       <workItem from="1726853999128" duration="11000" />
       <workItem from="1726858544160" duration="2102000" />
-      <workItem from="1726863305756" duration="5628000" />
+      <workItem from="1726863305756" duration="7521000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;second try&quot;">
       <option name="closed" value="true" />
