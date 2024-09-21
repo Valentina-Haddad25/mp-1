@@ -479,11 +479,13 @@ input[type="number"] {
   /* Ensures the image takes up full width */
   /* Image right under da home text */
 
+
   #child-one {
     width: 100%; /* Makes the image take up the full width of its container */
     height: 30%;
     background-color: black;
-    margin:0;
+    margin:0%;
+
   }
   /* Centers text content and adjusts margins for the introduction */
   .intro h1 {
@@ -700,3 +702,4 @@ input[type="number"] {
     margin-left: 1%; /* Adds a 1% margin to the left of the output text */
   }
 }
+
